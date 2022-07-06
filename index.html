@@ -107,72 +107,55 @@
         </section>
     </div>
             
-    </main>
+   
+
         
         <section>
             <h2>Contacto</h2>
             <!-- dentro del form siempre va un fieldset seria como un section con los headers -->
-            <form action="formulario"> 
+            <form class="formulario" action="formulario"> 
                 <fieldset>
                     <legend>Contactanos llenando todos los campos</legend>
-                    <div>
+                    <div class="contenedor-campos">
+                    <div class="campos">
                         <label for="nombre">Nombre</label>
-                        <input type="text" placeholder="Nombre">
+                        <input class="input-text" type="text" placeholder="Nombre">
 
                     </div>
                     
-                    <div>
+                    <div class="campos">
                         <label for="telefono">Telefono</label>
-                        <input type="tel" placeholder="Telefono">
+                        <input class="input-text" type="tel" placeholder="Telefono">
 
                     </div>
 
-                    <div>
-                        <label for="telefono">Telefono</label>
-                        <input type="tel" placeholder="Telefono">
-
-                    </div>
-
-                    <div>
+                
+                    <div class="campos">
                         <label for="correo">Correo</label>
-                        <input type="email" placeholder="Email">
+                        <input class="input-text" type="email" placeholder="Email">
 
                     </div>
 
-                    <div>
+                    <div class="campos">
                         <label for="Mensaje">Mensaje</label>
-                        <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                        <textarea class="input-text" name="Mensaje" id="" cols="30" rows="10"></textarea>
 
                     </div>
+                </div>  
      
-                    <div>
-                        <input type="submit" value="Enviar">   
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">   
                         <!-- tambien se puede usar el <button type="submit">Nombre a poner</button> se tiene que abrir y cerrar el nombre se coloca en el medio--> 
                     </div>
-
-                    
                   
-                    
-
-                    
-                              
-                    
-
-
-
-
-
-
                 </fieldset>
-
-
-
-
 
             </form>
         <section>
+       
+     </main>
         
-        <footer>
+        <footer class="footer">
             <p>todos los derechos reservados Sebastian Burgos</p>
         </footer>
             
