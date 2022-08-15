@@ -3,6 +3,7 @@
     --oscuro: #000000;
     --primario: #ffc107;
     --secundario: #78d2c6;
+    --secundarioOscuro: #78d2c6dd;
 }
 html {
     font-size: 62.5%;
@@ -10,10 +11,10 @@ html {
     scroll-snap-type: y mandatory;
 }
 /*SCROLL Y SNAP*/
-.servicios, .navp, .formulario {
+/*.servicios, .navp, .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
- }
+ }*/
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -57,7 +58,7 @@ h1,h2,h3 {
 }
 
 .boton{
-    background-color: var(--secundario);
+    background-color: var(--secundarioOscuro);
     color:#ffffff ;
     padding: 1rem 3rem;
     text-decoration: none;
@@ -113,7 +114,7 @@ h1,h2,h3 {
 }
 
 .nav-back {
-    background-color: var(--secundario);
+    background-color: var(--secundarioOscuro);
 }
 .navp {
     display: flex; 
@@ -127,8 +128,9 @@ h1,h2,h3 {
           .card__titulo {}
     UTILITYFIRST - CLASES CON UNA SOLA PROP .text-center {} o .color-100{} .m-2 {} margin o padding .p-3{}
     MODULO - utilizamos en este proyecto .card {} .card h2 {} clase mas algo especifico por ejemplo .navp a {}
-
+    
     DEPENDENDIENDO DE LA TECNOLOGIA PODEMOS USAR UNA O TODAS */
+    
 }
 @media (min-width: 768px) {
     .navp {
@@ -267,7 +269,21 @@ h1,h2,h3 {
  textarea {
     height: 15rem;
  }
+.imagen-sobremi {
+    width: 35rem;
+    height: 35rem;
+    background-image:url(../img/seb1.png) ;
+    background-size: cover;
+    border-radius: 35rem;
+    margin: 0 auto;
+}
+.sobremi__texto {
+    width: 80%;
+    text-align: center;
+    margin: 2rem auto;
 
+}
+ 
 
 
 
